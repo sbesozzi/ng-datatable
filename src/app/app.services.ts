@@ -1,5 +1,5 @@
-import { TestService } from './services/test.service';
+import { DatatableService } from './services/datatable.service';
 
 export const APP_SERVICES = [
-    TestService
+    DatatableService
 ];
