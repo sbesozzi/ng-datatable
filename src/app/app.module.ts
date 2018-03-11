@@ -1,7 +1,9 @@
 import { BrowserModule } from '@angular/platform-browser';
+import { HttpModule } from '@angular/http';
 import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
 
+import { DataTablesModule } from 'angular-datatables';
 import { SuiModule } from 'ng2-semantic-ui';
 
 import { APP_COMPONENTS } from './app.components';
@@ -16,7 +18,9 @@ import { AppComponent } from './components/app/app.component';
 
     ],
     imports: [
+        DataTablesModule,
         BrowserModule,
+        HttpModule,
         SuiModule,
         RouterModule.forRoot(APP_ROUTES)
     ],

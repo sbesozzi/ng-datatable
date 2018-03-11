@@ -1,0 +1,23 @@
+  // tslint:disable-next-line:no-unused-expression
+ {
+  "data": [
+    {
+      "id": 1,
+      "name": "Sarah",
+      "instagram": "@daydreamsonvinyl",
+      "instagramUrl": "https://www.instagram.com/daydreamsonvinyl/"
+    },
+    {
+      "id": 2,
+      "name": "Gabriele",
+      "instagram": "@ilbesozzi",
+      "instagramUrl": "https://www.instagram.com/ilbesozzi/"
+    },
+    {
+      "id": 3,
+      "name": "Laura",
+      "instagram": "@laurashull",
+      "instagramUrl": "https://www.instagram.com/laurashull/"
+    }
+  ]
+}

@@ -1,3 +1,24 @@
-<p>
-  datatable works!
-</p>
+<div class="datatable-container">
+  <div class="row">
+    <div class="sixteen wide column">
+      <table datatable [dtOptions]="dtOptions" [dtTrigger]="dtTrigger" class="ui small single line table selectable">
+        <thead>
+          <tr>
+            <th class="eight wide">Name</th>
+            <th class="eight wide">Instagram</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let user of users">
+            <td>{{ user.name }}</td>
+            <td>
+              <a href="{{ user.instagramUrl }}" title="View disclosure">
+                 {{ user.instagram }}
+              </a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
